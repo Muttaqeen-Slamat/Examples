@@ -6,3 +6,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/*showing footer to the bottom of the page and header remain on top*/
+footer p{
+    background-image: linear-gradient(to right, green, blue);
+}
+
+body {
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 100vw;
+}
+/*side by side you use flex*/
